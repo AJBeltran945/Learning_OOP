@@ -5,22 +5,22 @@ public class Methods {
         String name = "Austin";
         int age = 18;
 
-        hello(name,age);
+        hello(name,age); // call method
 
         int x = 3;
         int y = 4;
 
-        int z = add(x,y);
+        int z = add(x,y); // call method
 
         System.out.println(z);
     }
 
-    static void hello(String name, int age){
+    static void hello(String name, int age){ //method
         System.out.println("Hello "+name);
         System.out.println("You are "+age);
     }
 
-    static int add(int x, int y) {
+    static int add(int x, int y) { //method
 
         int z = x + y;
         return z;
